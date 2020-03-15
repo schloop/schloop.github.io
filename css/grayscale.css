@@ -67,20 +67,24 @@
     background-color: #f8f9fa;
   }
   #mainNav.navbar-shrink .navbar-brand {
+    color: dimgray;
+  }
+  #mainNav.navbar-shrink .navbar-brand:hover {
     color: black;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: black;
+    color: dimgray;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    background-color: rgba(100, 161, 157, 0.6);
+    color: black;
+    background-color: rgba(255, 215, 0, 0.5 )
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-      color: white;
-      background-color: rgba(100, 161, 157, 0.9);
+      color: black;
+      background-color: rgba(255, 215, 0, 1)
   }
 }
 
@@ -147,20 +151,21 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: gold;
+  color: black;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: goldenrod;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
-  color: white;
+  background-color: goldenrod;
+  color: whitesmoke;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: darkgoldenrod !important;
 }
 
 .about-section {
@@ -197,7 +202,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: gold;
     border-width: .25rem;
     width: 30%;
   }
@@ -229,7 +234,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid gold;
 }
 
 .contact-section .card h4 {
@@ -240,7 +245,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: gold;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -273,12 +278,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: goldenrod;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: darkgoldenrod;
 }
 
 .bg-black {
@@ -290,7 +295,7 @@ a:focus, a:hover {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: gold !important;
 }
 
 footer {
