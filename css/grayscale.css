@@ -73,13 +73,14 @@
     color: black;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    background-color: rgba(100, 161, 157, 0.6);
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+      color: white;
+      background-color: rgba(100, 161, 157, 0.9);
   }
 }
 
