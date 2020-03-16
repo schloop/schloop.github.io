@@ -182,9 +182,9 @@
   padding: 10rem 0;
 }
 
-.projects-section .featured-text {
-  padding: 2rem;
-}
+/*.projects-section .featured-text {
+  margin: 2rem;
+}*/
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
@@ -196,6 +196,10 @@
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
+}
+
+.embed-responsive {
+  margin: 4rem 0;
 }
 
 @media (min-width: 992px) {
