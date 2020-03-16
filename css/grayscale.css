@@ -4,16 +4,17 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: #f8f9fa;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: darkgoldenrod;
+  border: 1px solid darkgoldenrod;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -27,7 +28,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(black, 80%);
   outline: none;
   background-color: transparent;
 }
@@ -37,52 +38,56 @@
   background-color: transparent;
 }
 
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
-    border-bottom: none;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.35);
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.9);
   }
   #mainNav .nav-link {
+    font-size: 1.2rem;
     transition: none;
-    padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.9);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: black(255, 255, 255, 0.9);
+    background-color:  rgba(0, 0, 0, 0.5);
   }
   #mainNav .nav-link:active {
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #f8f9fa;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: dimgray;
+  }
+  #mainNav.navbar-shrink .navbar-brand:hover {
+    color: darkgoldenrod;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
-    padding: 1.5rem 1.5rem 1.25rem;
-    border-bottom: 0.25rem solid transparent;
+    color: dimgray;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: darkgoldenrod;
+    background-color:  transparent;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
-    outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+      color: darkgoldenrod;
+      background-color: mistyrose
   }
 }
+
 
 .masthead {
   position: relative;
@@ -90,7 +95,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 50%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -102,7 +107,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -114,20 +119,20 @@
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 3rem;
   }
 }
 
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
-    padding: 0;
+    padding: 2rem;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 6rem;
+    line-height: 6rem;
+    letter-spacing: 0.6rem;
   }
   .masthead h2 {
     max-width: 30rem;
@@ -146,20 +151,22 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: mistyrose;
+  color: darkgoldenrod;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: mistyrose;
+  color: goldenrod;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
-  color: white;
+  background-color: mistyrose;
+  color: goldenrod;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: mistyrose !important;
 }
 
 .about-section {
@@ -196,7 +203,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: darkgoldenrod;
     border-width: .25rem;
     width: 30%;
   }
@@ -228,7 +235,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid goldenrod;
 }
 
 .contact-section .card h4 {
@@ -239,7 +246,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: goldenrod;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -272,16 +279,20 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: goldenrod;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: darkgoldenrod;
 }
 
 .bg-black {
   background-color: #161616 !important;
+}
+
+.bg-white {
+  background-color: #f8f9fa !important;
 }
 
 .bg-primary {
@@ -289,7 +300,7 @@ a:focus, a:hover {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: goldenrod !important;
 }
 
 footer {
