@@ -144,6 +144,16 @@
   }
 }
 
+.alert-primary {
+  color: black;
+  background-color: whitesmoke;
+  border-color: darkgoldenrod;
+}
+
+.badge-primary {
+  background-color: goldenrod;
+}
+
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -189,7 +199,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 6rem 0;
 }
 
 @media (min-width: 992px) {
@@ -210,7 +220,7 @@
 
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 2rem;
   }
   .projects-section .project-text hr {
     border-color: darkgoldenrod;
@@ -224,6 +234,7 @@
     margin: 4rem 2rem;
   }
 }
+
 
 .signup-section {
   padding: 10rem 0;
