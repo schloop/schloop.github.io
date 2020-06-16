@@ -145,13 +145,13 @@
   }
 }
 
-.alert-primary {
+.alert-danger {
   color: black;
   background-color: whitesmoke;
   border-color: darkgoldenrod;
 }
 
-.badge-primary {
+.badge-danger {
   background-color: goldenrod;
 }
 
