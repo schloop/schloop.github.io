@@ -68,9 +68,38 @@
   <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-end">
+
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="covidModal" tabindex="-1" role="dialog" aria-labelledby="covidModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="covidModalLabel">COVID-19 Informationen</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Die Gesundheit unserer Familie und Freunde und die Möglichkeit einer sicheren Anreise trotz der aktuellen Pandemie ist für uns Priorität. Da unsere Familienmitglieder aus vielen Ländern anreisen, beobachten wir die aktuelle Situation in jedem Land genau, um abzuschätzen ob eine Feier mit allen Gästen sicher stattfinden kann.
+            Am 15. Januar 2021 werden wir eine Entscheidung treffen, ob die Hochzeitsfeier nach Plan stattfinden kann oder nicht.
+            Dieser Zeitpunkt sollte es unseren Gästen mit weiter Anreise ermöglichen, Flüge und Unterkünfte zu buchen, falls die Hochzeitsfeier stattfindet wie geplant. Deshalb empfehlen wir, mit nicht stornierbaren Buchungen zu warten, bis wir unsere Entscheidung am 15. Januar getroffen haben.
+            Die Entscheidung werden wir hier auf der Website und per E-Mail verkünden. Bitte schick uns eine E-Mail an hi@heidenreich-wedding.com (oder drück auf die Schaltfläche unten für eine vorgefertigte E-Mail) um eine E-Mail zur Entscheidung von uns zu erhalten.
+          </div>
+          <div class="modal-footer">
+            <a href="mailto:hi@heidenreich-wedding.com?subject=E-mail%20Benachrichtigung%2015.%20Januar&body=Hallo%20Sarah%20und%20Daniel,%0D%0A%0D%0Abitte%20benachrichtigt%20mich%20am%2015.%20Januar%20mit%20eurer%20Entscheidung%20bezüglich%20eurer%20Hochzeitsfeier.%0D%0A%0D%0AGrüße,%0D%0A%0D%0A" class="btn btn-primary">E-mail Benachrichtigung anfragen</a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Schliessen</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Heidenreich<br>Hochzeit</h1>
         <h2 class="text-uppercase mx-auto mt-2 mb-5">26. Juni 2021</br>Giessen, Hessen</h2>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#covidModal">
+          <p class="h5 mt-2">Wichtige COVID-19 Informationen</p>
+        </button><br><br>
         <a href="#about" class="btn btn-primary js-scroll-trigger shadow">Los geht's!</a>
       </div>
     </div>

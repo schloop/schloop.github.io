@@ -67,10 +67,39 @@
 
   <!-- Header -->
   <header class="masthead">
+
     <div class="container d-flex h-100 align-items-end">
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="covidModal" tabindex="-1" role="dialog" aria-labelledby="covidModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="covidModalLabel">COVID-19 Update</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        It is very important to us that our friends and family are healthy and able to travel to the wedding safely during the current pandemic. Our immediate family comes from several countries. We are continuously monitoring the coronavirus situation for each country to determine if it is safe for our guests to be there on our special day.
+We will make a final decision on January 15th (and no sooner) whether our wedding can take place as planned.
+This date should allow our traveling guests enough time to book flights and accommodations in case the wedding can continue as planned. Therefore, we recommend any travelers to wait to book until we announce our decision on January 15th.
+We will announce the decision here on the website and via e-mail. Please send us an e-mail at hi@heidenreich-wedding (or click the button below for a pre-prepared e-mail) to receive this alert directly.
+      </div>
+      <div class="modal-footer">
+        <a href="mailto:hi@heidenreich-wedding.com?subject=January%2015th%20E-mail%20Alert&body=Hi%20Sarah%20and%20Daniel,%0D%0A%0D%0Aplease%20notify%20me%20on%20January%2015th%20with%20the%20coronavirus%20update%20for%20your%20wedding.%0D%0A%0D%0ABest,%0D%0A%0D%0A" class="btn btn-primary">Request E-mail Notification</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Heidenreich<br>Wedding</h1>
         <h2 class="text-uppercase mx-auto mt-2 mb-5">June 26<sup>th</sup>, 2021</br>Giessen, Germany</h2>
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#covidModal">
+          <p class="h5 mt-2">Important COVID-19 Update</p>
+        </button><br><br>
         <a href="#about" class="btn btn-primary js-scroll-trigger shadow">Get Started</a>
       </div>
     </div>
